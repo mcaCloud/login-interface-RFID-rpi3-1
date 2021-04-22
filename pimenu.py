@@ -14,6 +14,12 @@ import numpy as np
 #from Tkinter import Tk, Frame, Button, Label, PhotoImage
 from Tkinter import *
 import tkMessageBox
+
+# Esta es la libreria que me ayuda a compatibilizar python 2 con el 3
+# Primero es necesario installa : pip install future 
+from future import standard_library
+standard_library.install_aliases()
+
 from math import sqrt, floor, ceil
 from PIL import Image, ImageTk
 import yaml
